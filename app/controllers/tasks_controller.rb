@@ -1,5 +1,3 @@
-# app/controllers/tasks_controller.rb
-
 class TasksController < ApplicationController
     def index
         @tasks = Task.all
@@ -15,5 +13,9 @@ class TasksController < ApplicationController
         })
         task.save
         redirect_to '/tasks'
+    end
+
+    def show
+
     end
 end
