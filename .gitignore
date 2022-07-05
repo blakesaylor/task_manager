@@ -28,3 +28,6 @@
 
 # Ignore coverage folder so SimpleCov reports aren't pushed to GitHub
 /coverage
+
+.DS_Store
+db/.DS_Store
