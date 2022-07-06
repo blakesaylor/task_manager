@@ -37,4 +37,12 @@ class TasksController < ApplicationController
         Task.destroy(params[:id])
         redirect_to '/tasks'
     end
+
+    def easteregg
+
+    end
+
+    def showmethetasks
+        
+    end
 end
